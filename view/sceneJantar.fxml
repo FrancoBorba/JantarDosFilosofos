@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerJantar">
+   <children>
+      <ImageView fitHeight="709.0" fitWidth="1207.0" layoutX="-304.0" layoutY="-105.0" pickOnBounds="true">
+         <image>
+            <Image url="@../image/jantarPilotos.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo2" fitHeight="48.0" fitWidth="44.0" layoutX="202.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" rotate="45.0">
+         <image>
+            <Image url="@../image/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo4" fitHeight="48.0" fitWidth="44.0" layoutX="333.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true" rotate="225.0">
+         <image>
+            <Image url="@../image/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo5" fitHeight="48.0" fitWidth="44.0" layoutX="306.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../image/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo1" fitHeight="48.0" fitWidth="44.0" layoutX="220.0" layoutY="120.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@../image/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="garfo3" fitHeight="48.0" fitWidth="44.0" layoutX="261.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true" rotate="315.0">
+         <image>
+            <Image url="@../image/garfo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bolhaLeclerc" fitHeight="254.0" fitWidth="472.0" layoutX="-57.0" layoutY="-53.0" pickOnBounds="true" preserveRatio="true" rotate="-38.7">
+         <image>
+            <Image url="@../image/pensandoBolha.png" />
+         </image>
+      </ImageView>
+      <Slider fx:id="pensarLeclerc" blockIncrement="2.0" layoutX="49.0" layoutY="399.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="pensarMax" blockIncrement="2.0" layoutX="169.0" layoutY="399.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="pensarHamilton" blockIncrement="2.0" layoutX="283.0" layoutY="399.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="pensarNoris" blockIncrement="2.0" layoutX="409.0" layoutY="399.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="pensarAlonso" blockIncrement="2.0" layoutX="528.0" layoutY="399.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="comerLeclerc" blockIncrement="2.0" layoutX="55.0" layoutY="439.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="comerMax" blockIncrement="2.0" layoutX="178.0" layoutY="439.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="comerHamilton" blockIncrement="2.0" layoutX="296.0" layoutY="439.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="comerNoris" blockIncrement="2.0" layoutX="409.0" layoutY="439.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <Slider fx:id="comerAlonso" blockIncrement="2.0" layoutX="528.0" layoutY="439.0" max="10.0" min="1.0" prefHeight="24.0" prefWidth="46.0" value="10.0" />
+      <ImageView fx:id="bolhaHamilton" fitHeight="254.0" fitWidth="472.0" layoutX="255.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/pensandoBolha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bolhaAlonso" fitHeight="254.0" fitWidth="472.0" layoutX="255.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/pensandoBolha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="83.0" fitWidth="72.0" onMouseClicked="#resetarAnimacao" pickOnBounds="true">
+         <image>
+            <Image url="@../image/reset.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bolhaNoris" fitHeight="254.0" fitWidth="472.0" layoutX="-121.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" rotate="-71.9">
+         <image>
+            <Image url="@../image/pensandoBolha.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bolhaMax" fitHeight="254.0" fitWidth="472.0" layoutX="129.0" layoutY="-85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/pensandoBolha.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pausarLeclerc" layoutY="336.0" mnemonicParsing="false" onAction="#pausarLeclerc" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: rgb(255, 49, 49);" text="Pausar" />
+      <Button fx:id="pausarMax" layoutX="119.0" layoutY="336.0" mnemonicParsing="false" onAction="#pausarMax" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: #1C1B6E;" text="Pausar" />
+      <Button fx:id="pausarNoris" layoutX="350.0" layoutY="336.0" mnemonicParsing="false" onAction="#pausarNoris" prefHeight="44.0" prefWidth="129.0" style="-fx-background-color: #FF914D;" text="Pausar" />
+      <Button fx:id="pausarHamilton" layoutX="237.0" layoutY="336.0" mnemonicParsing="false" onAction="#pausarHamilton" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: #5CE1E6;" text="Pausar" />
+      <Button fx:id="pausarAlonso" layoutX="479.0" layoutY="336.0" mnemonicParsing="false" onAction="#pausarAlonso" prefHeight="44.0" prefWidth="119.0" style="-fx-background-color: #00BF63;" text="Pausar" />
+   </children>
+</AnchorPane>
